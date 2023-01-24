@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta name="ncbi_pinger_expose_prev_app_db_pdid" content="true"/> 
+        <title>PingerTest</title>
+    </head>
+    <body>
+        <script>  
+            window.addEventListener("message", (event) => {
+                console.log(event);
+            }, false);
+        </script>
+        <!--<script type="text/javascript" src="https://intrawebdev2.ncbi.nlm.nih.gov/staff/brenner1/pinger/pinger.bundle.js"></script>-->
+        <iframe id="testiframe" src="https://intrawebdev2.ncbi.nlm.nih.gov/staff/brenner1/pingercrossdomaintest.html" title="Iframe test"></iframe>
+    </body>
+</html>
